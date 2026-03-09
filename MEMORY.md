@@ -61,14 +61,19 @@
 - [2026-03-08] 创建招聘专员 Agent，负责 Agent 创建与群聊绑定
 
 ## 定时任务 (Cron Jobs)
-- 暂无活跃的定时任务
+- **每日记忆同步**: 每天 23:00 自动同步到 GitHub
+  - 脚本: `~/.openclaw/workspace/scripts/sync-memory.sh`
+  - 条件: 当天有聊天记录或 MEMORY.md 有更新时才同步
+  - 日志: `~/.openclaw/workspace/memory/cron-output/sync-YYYY-MM-DD.log`
 
 ## GitHub 记忆同步
 - **仓库**: https://github.com/zhourundong/openclaw
 - **同步脚本**: `~/.openclaw/workspace/scripts/sync-memory.sh`
+- **自动同步**: 每天 23:00（有内容时才同步）
 - **目录结构**:
   - `MEMORY.md` - 长期核心知识
   - `daily/YYYY-MM-DD/` - 每日工作记录
+  - `daily/YYYY-MM-DD/cron-output/` - 定时任务输出
 
 ## Agent 群聊绑定
 - **招聘专员**: 绑定到群聊 `oc_11f4c0e9ae12c5a0be6bbe38a1811a19`
@@ -84,4 +89,4 @@
 
 ---
 
-*最后更新: 2026-03-08*
+*最后更新: 2026-03-09*
