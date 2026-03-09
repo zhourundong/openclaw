@@ -63,6 +63,13 @@
 ## 定时任务 (Cron Jobs)
 - 暂无活跃的定时任务
 
+## GitHub 记忆同步
+- **仓库**: https://github.com/zhourundong/openclaw
+- **同步脚本**: `~/.openclaw/workspace/scripts/sync-memory.sh`
+- **目录结构**:
+  - `MEMORY.md` - 长期核心知识
+  - `daily/YYYY-MM-DD/` - 每日工作记录
+
 ## Agent 群聊绑定
 - **招聘专员**: 绑定到群聊 `oc_11f4c0e9ae12c5a0be6bbe38a1811a19`
   - 功能: 帮助创建各种 Agent 并绑定群聊
