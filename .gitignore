@@ -1,0 +1,25 @@
+# 敏感信息 - 不提交
+*.key
+*.pem
+*.p12
+secrets/
+.env
+.env.*
+
+# 配置文件（可能包含密钥）
+openclaw.json
+config.json
+credentials.json
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# 学习记录（可能包含敏感操作）
+.learnings/
