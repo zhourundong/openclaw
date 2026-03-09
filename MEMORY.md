@@ -76,9 +76,11 @@
   - `daily/YYYY-MM-DD/cron-output/` - 定时任务输出
 
 ## Agent 群聊绑定
-- **招聘专员**: 绑定到群聊 `oc_11f4c0e9ae12c5a0be6bbe38a1811a19`
+- **招聘HR (recruiter)**: 绑定到群聊 `oc_11f4c0e9ae12c5a0be6bbe38a1811a19`
+  - Agent ID: recruiter
   - 功能: 帮助创建各种 Agent 并绑定群聊
   - 风格: 大哥大风格，雷厉风行
+  - 工作区: `/root/.openclaw/workspace/agents/recruiter/`
 
 ## SOUL.md 规则 (简版)
 1. WAL 协议: 回答前先保存，再回答
