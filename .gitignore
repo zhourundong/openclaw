@@ -1,0 +1,10 @@
+# 敏感信息 - 不提交
+*.key
+*.pem
+.env
+.env.*
+openclaw.json
+config.json
+credentials.json
+*.log
+.learnings/
